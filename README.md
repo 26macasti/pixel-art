@@ -28,12 +28,14 @@ Nessuna installazione necessaria: funziona nel browser su **LIM (lavagna interat
 
 | Livello | Griglia | Simboli | Colori | Abilità allenate |
 | --- | --- | --- | --- | --- |
-| 🌱 **Classe 1ª** — Facile | 6–7 caselle | Numeri | 2–3 + bianco | Riconoscere i numeri, coordinazione occhio-mano |
-| 🚀 **Classe 2ª** — Facile + | 8 caselle | Numeri | 4–5 + bianco | Attenzione al dettaglio, corrispondenza numero → colore |
-| 🐾 **Classe 3ª** — Medio | 10 caselle | Numeri | 3–5 | Pianificare il lavoro a zone, precisione |
-| 🏰 **Classe 4ª** — Impegnativo | 12 caselle | **Lettere** | 4–5 | Abbinare lettere → colori (pre-lettura del codice), perseveranza |
-| ❓ **Classe 5ª** — Esperto | 12–14 caselle | Lettere | 3 + **mistero** | Astrazione e fantasia: il disegno si rivela solo alla fine! |
+| 🌱 **Classe 1ª** — Facile | 6–7 caselle | Numeri | 2–3 + bianco | Cuore, Fiore, Sole ☀️, Foglia 🍂, Zucca 🎃 |
+| 🚀 **Classe 2ª** — Facile + | 8 caselle | Numeri | 4–5 + bianco | Casetta, Razzo, Albero di Natale 🎄, Pupazzo di Neve ❄️ |
+| 🐾 **Classe 3ª** — Medio | 10 caselle | Numeri | 3–5 | Gatto, Barca, Gelato ☀️, Uovo di Pasqua 🐣 |
+| 🏰 **Classe 4ª** — Impegnativo | 12 caselle | **Lettere** | 3–5 | Castello, Farfalla, Pagliaccio 🎉, Cuore Grande 💘 |
+| ❓ **Classe 5ª** — Esperto | 12–14 caselle | Lettere | 3–4 + **mistero** | Delfino, Pinguino, Babbo Natale 🎅, Zucca Grande 🎃 |
 | 🎨 **Disegno libero** | 16 caselle | — | 9 colori | Creatività ed espressione libera |
+
+Ogni scheda mostra una **etichetta** con la stagione o la festività: ☀️ Estate, 🍂 Autunno, ❄️ Inverno, 🌸 Primavera (Fiore), 🎄 Natale, 🎅 Natale (mistero!), 🎃 Halloween, 🐣 Pasqua, 🎉 Carnevale, 💘 S. Valentino.
 
 ## 🩹 La spiegazione dell'errore
 

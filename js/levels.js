@@ -10,7 +10,9 @@ const COL = {
   marrone: { nome: 'Marrone', hex: '#8d5524' },
   grigio: { nome: 'Grigio', hex: '#adb5bd' },
   nero: { nome: 'Nero', hex: '#212529' },
-  bianco: { nome: 'Bianco', hex: '#eceff4' }
+  bianco: { nome: 'Bianco', hex: '#eceff4' },
+  blu: { nome: 'Blu', hex: '#3a86ff' },
+  pelle: { nome: 'Pelle', hex: '#f1c27d' }
 };
 
 const LEVELS = [
@@ -46,6 +48,48 @@ const LEVELS = [
           '.11211.',
           '..111..',
           '.3.3.3.'
+        ]
+      },
+      {
+        nome: 'Il Sole',
+        stagione: '☀️ Estate',
+        simboli: { '1': COL.giallo },
+        griglia: [
+          '...1...',
+          '..111..',
+          '1111111',
+          '1111111',
+          '1111111',
+          '..111..',
+          '...1...'
+        ]
+      },
+      {
+        nome: 'La Foglia',
+        stagione: '🍂 Autunno',
+        simboli: { '1': COL.arancio, '2': COL.verde },
+        griglia: [
+          '....1..',
+          '...111.',
+          '..11111',
+          '1111111',
+          '.11111.',
+          '..111..',
+          '...2...'
+        ]
+      },
+      {
+        nome: 'La Zucca',
+        festa: '🎃 Halloween',
+        simboli: { '1': COL.arancio, '2': COL.verde, '3': COL.nero },
+        griglia: [
+          '...2...',
+          '.11111.',
+          '1111111',
+          '1311131',
+          '1111111',
+          '1333331',
+          '.11111.'
         ]
       }
     ]
@@ -86,6 +130,36 @@ const LEVELS = [
           '.1.22.1.',
           '44.44.44'
         ]
+      },
+      {
+        nome: "L'Albero di Natale",
+        festa: '🎄 Natale',
+        simboli: { '1': COL.verde, '2': COL.giallo, '3': COL.marrone },
+        griglia: [
+          '....2...',
+          '..1111..',
+          '..1111..',
+          '.111111.',
+          '.111111.',
+          '11111111',
+          '...11...',
+          '..3333..'
+        ]
+      },
+      {
+        nome: 'Il Pupazzo di Neve',
+        stagione: '❄️ Inverno',
+        simboli: { '1': COL.rosso, '2': COL.bianco, '3': COL.nero, '4': COL.arancio },
+        griglia: [
+          '..1111..',
+          '.111111.',
+          '.222222.',
+          '.232232.',
+          '.224422.',
+          '.111111.',
+          '22322322',
+          '.222222.'
+        ]
       }
     ]
   },
@@ -95,7 +169,7 @@ const LEVELS = [
     difficolta: 'Medio',
     emoji: '🐾',
     colore: '#ffd60a',
-    desc: 'Griglia da 10 caselle e ben 5 colori. Serve tanto occhio!',
+    desc: 'Griglia da 10 caselle e fino a 5 colori. Serve tanto occhio!',
     mistero: false,
     disegni: [
       {
@@ -128,6 +202,41 @@ const LEVELS = [
           '..222222..',
           '4444444444',
           '4444444444'
+        ]
+      },
+      {
+        nome: 'Il Gelato',
+        stagione: '☀️ Estate',
+        simboli: { '1': COL.rosa, '2': COL.giallo, '3': COL.marrone, '4': COL.rosso },
+        griglia: [
+          '....4....',
+          '...111...',
+          '..11111..',
+          '.1111111.',
+          '..22222..',
+          '.2222222.',
+          '.3333333.',
+          '..33333..',
+          '...333...',
+          '....3....'
+        ]
+      },
+      {
+        nome: "L'Uovo di Pasqua",
+        festa: '🐣 Pasqua',
+        simboli: { '1': COL.viola, '2': COL.giallo, '3': COL.rosa },
+        griglia: [
+          '....1....',
+          '...131...',
+          '..11211..',
+          '.1122211.',
+          '112222211',
+          '112323211',
+          '112222211',
+          '.1122211.',
+          '..11211..',
+          '...111...',
+          '....1....'
         ]
       }
     ]
@@ -176,6 +285,44 @@ const LEVELS = [
           '.....CC.....',
           '..C......C..'
         ]
+      },
+      {
+        nome: 'Il Pagliaccio',
+        festa: '🎉 Carnevale',
+        simboli: { A: COL.rosso, B: COL.blu, C: COL.bianco, D: COL.giallo, E: COL.nero },
+        griglia: [
+          '.B........B.',
+          '.BB......BB.',
+          'BBBBBBBBBBBB',
+          'CCCCCCCCCCCC',
+          'CCCECCCCCECC',
+          'CCCCCCCCCCCC',
+          'CCCCCAACCCCC',
+          'CCCCEEEECCCC',
+          'CCCCCCCCCCCC',
+          '.DDDDDDDDDD.',
+          'DDDDDDDDDDDD',
+          '.D.DD..DD.D.'
+        ]
+      },
+      {
+        nome: 'Il Cuore Grande',
+        festa: '💘 S. Valentino',
+        simboli: { A: COL.rosso, B: COL.rosa, C: COL.bianco },
+        griglia: [
+          '..AA....AA..',
+          '.ACAAAAAAAA.',
+          'AAAABBBBAAAA',
+          'AAAABBBBAAAA',
+          'AAAABBBBAAAA',
+          'AAAAAAAAAAAA',
+          'AAAAAAAAAAAA',
+          'AAAAAAAAAAAA',
+          '.AAAAAAAAAA.',
+          '..AAAAAAAA..',
+          '...AAAAAA...',
+          '....AAAA....'
+        ]
       }
     ]
   },
@@ -221,6 +368,43 @@ const LEVELS = [
           '.ABBBBBBBBA.',
           '..AAAAAAAA..',
           '...CC..CC...'
+        ]
+      },
+      {
+        nome: 'Babbo Natale',
+        festa: '🎅 Natale',
+        simboli: { A: COL.rosso, B: COL.bianco, C: COL.pelle, D: COL.nero },
+        griglia: [
+          '...AAAAAA...',
+          '..AAAAAAAA..',
+          '.BBBBBBBBBB.',
+          '...CCCCCC...',
+          '...CDCCDC...',
+          '...CCAACC...',
+          '.BBBBBBBBBB.',
+          'BBBBBBBBBBBB',
+          'BBBBBBBBBBBB',
+          '.AAAAAAAAAA.',
+          'AAAAAAAAAAAA',
+          'AAADDDDDDAAA'
+        ]
+      },
+      {
+        nome: 'La Zucca Grande',
+        festa: '🎃 Halloween',
+        simboli: { A: COL.arancio, B: COL.verde, C: COL.nero },
+        griglia: [
+          '......BB......',
+          '......BB......',
+          '..AAAAAAAAAA..',
+          '.AAAAAAAAAAAA.',
+          'AAAAAAAAAAAAAA',
+          'AACCAAAAAACCAA',
+          'AAAAAACCAAAAAA',
+          'ACCCCCCCCCCCCA',
+          'AAAAAAAAAAAAAA',
+          '.AAAAAAAAAAAA.',
+          '..AAAAAAAAAA..'
         ]
       }
     ]

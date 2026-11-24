@@ -202,6 +202,10 @@
     });
   }
 
+  function etichetta(disegno) {
+    return disegno.stagione || disegno.festa || '';
+  }
+
   function apriLivello(id) {
     state.livello = ALL_LEVELS.find((l) => l.id === id);
     $('#livello-titolo').textContent = state.livello.emoji + ' ' + state.livello.classe;
@@ -215,6 +219,13 @@
       card.appendChild(creaAnteprima(disegno, state.livello.mistero && !disegno.libero));
       const h3 = document.createElement('h3');
       h3.textContent = state.livello.mistero && !disegno.libero ? 'Disegno misterioso' : disegno.nome;
+      const tag = state.livello.mistero && !disegno.libero ? '' : etichetta(disegno);
+      if (tag) {
+        const pil = document.createElement('span');
+        pil.className = 'pillola-tag';
+        pil.textContent = tag;
+        card.appendChild(pil);
+      }
       const p = leggiStelle();
       const stelle = document.createElement('div');
       stelle.className = 'stelle';
@@ -240,7 +251,7 @@
     state.totale = state.disegno.griglia.join('').split('').filter((c) => c !== '.').length;
     $('#disegno-nome').textContent = state.livello.mistero && !state.disegno.libero
       ? '🎨 Disegno misterioso!'
-      : '🎨 ' + state.disegno.nome;
+      : '🎨 ' + state.disegno.nome + (etichetta(state.disegno) ? '  ' + etichetta(state.disegno) : '');
     costruisciTavolozza();
     costruisciGriglia();
     aggiornaAvanzamento();
