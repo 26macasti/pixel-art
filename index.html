@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Art — Primaria di Barrali</title>
+  <meta name="description" content="Laboratorio di pixel art per la scuola primaria (Classe 1ª - 5ª): livelli progressivi, errori spiegati con gentilezza, aiutino e disegno libero.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="testata">
+    <button id="btn-home" class="pillola" type="button">🏠 Home</button>
+    <div class="logo">
+      <h1>🌈 Pixel Art</h1>
+      <span class="scuola">Primaria di Barrali · Classe 1ª – 5ª</span>
+    </div>
+    <button id="btn-sound" class="pillola" type="button" aria-label="Attiva o disattiva i suoni">🔊</button>
+  </header>
+
+  <main>
+    <section id="home" class="schermata">
+      <p class="presentazione">Ciao piccolo artista! Scegli la tua classe e colora le caselle seguendo i simboli.
+        Se ti sbagli, nessuna paura: ti spieghiamo subito come fare meglio! 💪</p>
+      <div id="cards" class="griglia-cards"></div>
+    </section>
+
+    <section id="livello" class="schermata nascosta">
+      <h2 id="livello-titolo"></h2>
+      <p id="livello-desc" class="presentazione"></p>
+      <div id="disegni" class="griglia-cards"></div>
+    </section>
+
+    <section id="gioco" class="schermata nascosta">
+      <div class="gioco-top">
+        <button id="btn-disegni" class="pillola" type="button">← Disegni</button>
+        <span id="disegno-nome"></span>
+      </div>
+      <div class="lavagna">
+        <div id="griglia-wrap">
+          <div id="griglia"></div>
+        </div>
+        <aside id="pannello">
+          <h3>Tavolozza</h3>
+          <div id="tavolozza"></div>
+          <div id="avanzamento">
+            <div id="barra-sfondo"><div id="barra"></div></div>
+            <span id="conteggio"></span>
+          </div>
+          <div id="msg" role="status" aria-live="polite"></div>
+          <div id="azioni">
+            <button id="btn-aiuto" type="button">💡 Aiutino</button>
+            <button id="btn-modello" type="button">👀 Modello</button>
+            <button id="btn-salva" type="button" class="nascosta">💾 Salva</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="nascosta">
+    <div id="modal-box"></div>
+  </div>
+  <div id="coriandoli"></div>
+
+  <script src="js/levels.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
