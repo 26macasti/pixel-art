@@ -91,7 +91,35 @@ const LEVELS = [
           '1333331',
           '.11111.'
         ]
-      }
+      },
+      {
+        nome: 'La Mela',
+        stagioneTag: '🍂 Autunno',
+        simboli: { '1': COL.rosso, '2': COL.verde },
+        griglia: [
+          '....2...',
+          '..1111..',
+          '.111111.',
+          '11111111',
+          '11111111',
+          '.111111.',
+          '..1111..'
+        ]
+      },
+      {
+        nome: 'Il Pesce',
+        stagioneTag: '🌊 Estate',
+        simboli: { '1': COL.azzurro, '2': COL.giallo, '3': COL.nero, '4': COL.rosa },
+        griglia: [
+          '.....4..',
+          '..1111..',
+          '.11111.2',
+          '13111122',
+          '1111112.',
+          '.11111..',
+          '.....4..'
+        ]
+      },
     ]
   },
   {
@@ -160,7 +188,22 @@ const LEVELS = [
           '22322322',
           '.222222.'
         ]
-      }
+      },
+      {
+        nome: 'La Fragola',
+        stagioneTag: '🌸 Primavera',
+        simboli: { '1': COL.rosso, '2': COL.verde, '3': COL.giallo },
+        griglia: [
+          '..2222..',
+          '.222222.',
+          '..1111..',
+          '.131131.',
+          '11311311',
+          '.131131.',
+          '..1111..',
+          '...11...'
+        ]
+      },
     ]
   },
   {
@@ -238,7 +281,39 @@ const LEVELS = [
           '...111...',
           '....1....'
         ]
-      }
+      },
+      {
+        nome: 'Il Sottomarino',
+        stagioneTag: '🌊 Estate',
+        simboli: { '1': COL.giallo, '2': COL.rosso, '3': COL.azzurro, '4': COL.grigio },
+        griglia: [
+          '.....22...',
+          '..222222..',
+          '4111111114',
+          '4133113314',
+          '1111111111',
+          '.11111111.',
+          '....4.....',
+          '.4......4.'
+        ]
+      },
+      {
+        nome: 'Il Girasole',
+        stagioneTag: '🍂 Autunno',
+        simboli: { '1': COL.giallo, '2': COL.marrone, '3': COL.verde },
+        griglia: [
+          '..111111..',
+          '.11111111.',
+          '1111111111',
+          '1112222111',
+          '1112222111',
+          '1111111111',
+          '.11111111.',
+          '..111111..',
+          '.....3....',
+          '..3.3.3...'
+        ]
+      },
     ]
   },
   {
@@ -323,7 +398,42 @@ const LEVELS = [
           '...AAAAAA...',
           '....AAAA....'
         ]
-      }
+      },
+      {
+        nome: 'La Corona',
+        festaTag: '👑 Epifania',
+        simboli: { A: COL.giallo, B: COL.rosso, C: COL.azzurro, D: COL.verde, E: COL.rosa },
+        griglia: [
+          '.A...AA...A.',
+          'A.A..AA..A.A',
+          'AAEAAAAAAEAA',
+          'AABAAAAAABAA',
+          'AADAAAAAADAA',
+          'AACAAAAAACAA',
+          'AAAAAAAAAAAA',
+          'AAAAAAAAAAAA',
+          '.AAAAAAAAAA.'
+        ]
+      },
+      {
+        nome: 'Il Fungo',
+        stagioneTag: '🍄 Autunno',
+        simboli: { A: COL.rosso, B: COL.bianco, C: COL.pelle, D: COL.verde },
+        griglia: [
+          '....AAAA....',
+          '..AAAAAAAA..',
+          '.AAAAAAAAAA.',
+          'AABAABBAABAA',
+          'AAAAAAAAAAAA',
+          '.AAAAAAAAAA.',
+          '..CCCCCCCC..',
+          '..CCCCCCCC..',
+          '..CCCCCCCC..',
+          '..DDDDDDDD..',
+          '.DDDDDDDDDD.',
+          'DDDDDDDDDDDD'
+        ]
+      },
     ]
   },
   {
@@ -406,7 +516,44 @@ const LEVELS = [
           '.AAAAAAAAAAAA.',
           '..AAAAAAAAAA..'
         ]
-      }
+      },
+      {
+        nome: 'La Montagna',
+        stagioneTag: '❄️ Inverno',
+        simboli: { A: COL.grigio, B: COL.azzurro, C: COL.verde },
+        griglia: [
+          '......AA......',
+          '.....AAAA.....',
+          '....AAAAAA....',
+          '...AAAAAAAA...',
+          '..AAAAAAAAAA..',
+          '.AAAAAAAAAAAA.',
+          'AAAAAAAAAAAAAA',
+          'CC..CC..CC..CC',
+          'CC..CC..CC..CC',
+          'CCCCCCCCCCCCCC',
+          'BBBBBBBBBBBBBB'
+        ]
+      },
+      {
+        nome: 'Il Tramonto',
+        stagioneTag: '☀️ Estate',
+        simboli: { A: COL.giallo, B: COL.azzurro, C: COL.marrone },
+        griglia: [
+          '..............',
+          '..............',
+          '.....AAA......',
+          '....AAAAA.....',
+          '....AAAAA.....',
+          '.....AAA......',
+          'BBBBBBBBBBBBBB',
+          'BBBBBBBBBBBBBB',
+          'BBBBBBBBBBBBBB',
+          '......CC......',
+          'AAAAAAAAAAAAAA',
+          'AAAAAAAAAAAAAA'
+        ]
+      },
     ]
   }
 ];

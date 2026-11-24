@@ -28,14 +28,14 @@ Nessuna installazione necessaria: funziona nel browser su **LIM (lavagna interat
 
 | Livello | Griglia | Simboli | Colori | Abilità allenate |
 | --- | --- | --- | --- | --- |
-| 🌱 **Classe 1ª** — Facile | 6–7 caselle | Numeri | 2–3 + bianco | Cuore, Fiore, Sole ☀️, Foglia 🍂, Zucca 🎃 |
-| 🚀 **Classe 2ª** — Facile + | 8 caselle | Numeri | 4–5 + bianco | Casetta, Razzo, Albero di Natale 🎄, Pupazzo di Neve ❄️ |
-| 🐾 **Classe 3ª** — Medio | 10 caselle | Numeri | 3–5 | Gatto, Barca, Gelato ☀️, Uovo di Pasqua 🐣 |
-| 🏰 **Classe 4ª** — Impegnativo | 12 caselle | **Lettere** | 3–5 | Castello, Farfalla, Pagliaccio 🎉, Cuore Grande 💘 |
-| ❓ **Classe 5ª** — Esperto | 12–14 caselle | Lettere | 3–4 + **mistero** | Delfino, Pinguino, Babbo Natale 🎅, Zucca Grande 🎃 |
+| 🌱 **Classe 1ª** — Facile | 6–8 caselle | Numeri | 2–4 + bianco | Cuore, Fiore, Sole ☀️, Foglia 🍂, Zucca 🎃, Mela 🍂, Pesce 🌊 |
+| 🚀 **Classe 2ª** — Facile + | 8 caselle | Numeri | 3–5 + bianco | Casetta, Razzo, Albero di Natale 🎄, Pupazzo di Neve ❄️, Fragola 🌸 |
+| 🐾 **Classe 3ª** — Medio | 9–11 caselle | Numeri | 3–5 | Gatto, Barca, Gelato ☀️, Uovo di Pasqua 🐣, Sottomarino 🌊, Girasole 🍂 |
+| 🏰 **Classe 4ª** — Impegnativo | 9–12 caselle | **Lettere** | 3–5 | Castello, Farfalla, Pagliaccio 🎉, Cuore Grande 💘, Corona 👑, Fungo 🍄 |
+| ❓ **Classe 5ª** — Esperto | 11–14 caselle | Lettere | 3–4 + **mistero** | Delfino, Pinguino, Babbo Natale 🎅, Zucca Grande 🎃, Montagna ❄️, Tramonto ☀️ |
 | 🎨 **Disegno libero** | 16 caselle | — | 9 colori | Creatività ed espressione libera |
 
-Ogni scheda mostra una **etichetta** con la stagione o la festività: ☀️ Estate, 🍂 Autunno, ❄️ Inverno, 🌸 Primavera (Fiore), 🎄 Natale, 🎅 Natale (mistero!), 🎃 Halloween, 🐣 Pasqua, 🎉 Carnevale, 💘 S. Valentino.
+Ogni scheda mostra una **etichetta** con la stagione o la festività: ☀️ Estate, 🍂 Autunno, ❄️ Inverno, 🌸 Primavera, 🌊 Mare, 🍄 Fungo, 🎄/🎅 Natale (mistero!), 🎃 Halloween, 🐣 Pasqua, 🎉 Carnevale, 💘 S. Valentino, 👑 Epifania.
 
 ## 🩹 La spiegazione dell'errore
 
